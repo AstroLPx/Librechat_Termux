@@ -23,6 +23,7 @@ if [ $choice -eq 1 ]; then
 
     npm ci --parallel
     npm run frontend
+    npm install -g cross-env
     exit
 EOF
 elif [ $choice -eq 2 ]; then
